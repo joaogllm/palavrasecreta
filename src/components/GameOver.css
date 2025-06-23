@@ -1,0 +1,58 @@
+.game-over {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeSlideIn 0.6s ease-out;
+}
+
+.game-over h1 {
+  font-size: 3em;
+  color: #f87171;
+  margin-bottom: 1rem;
+}
+
+.game-over h2 {
+  font-size: 1.5em;
+  margin-bottom: 2rem;
+}
+
+.game-over h2 span {
+  color: #facc15;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.game-over button {
+  background: #3b82f6;
+  color: white;
+  padding: 0 2rem;
+  border: none;
+  border-radius: 999px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-over button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Animação */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
