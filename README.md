@@ -14,7 +14,7 @@ SecretWord é um jogo divertido de adivinhação de palavras desenvolvido com Re
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/joaogllm/palavrasecreta.git
    ```
 2. Entre na pasta do projeto:
    ```bash
